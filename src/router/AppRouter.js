@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Header from "../components/Header";
+// import Header from "../components/Header";
 
 
 import HomePage from "../pages/HomePage";
@@ -12,7 +12,7 @@ import ServicesPage from "../pages/ServicesPage";
 const AppRouter = () => (
     <Router>
         <div>
-            <Header />
+            {/* <Header /> */}
             <Switch>
                 <Route path="/" component={HomePage} exact />
                 <Route path="/AboutPage" component={AboutPage} />
